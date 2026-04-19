@@ -1,5 +1,9 @@
 # dumb_video_analyzer
 
+**Live:** https://dumbvideoanalyzer-hdzcfte2q2qycobndugnee.streamlit.app/
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dumbvideoanalyzer-hdzcfte2q2qycobndugnee.streamlit.app/)
+
 Streamlit + MediaPipe webcam demo that detects:
 
 - A raised middle finger (draws a label over the video)
@@ -19,11 +23,6 @@ The app is designed for [Streamlit Community Cloud](https://share.streamlit.io/)
 3. Click **New app**, pick `iamsorenl/dumb_video_analyzer`, branch `main`, main file `app.py`.
 4. Leave Python version on "From repo" — `.python-version` pins it to 3.12 for MediaPipe compatibility.
 5. Click **Deploy**. First build takes ~2–3 minutes (MediaPipe wheels are large).
-
-Once it's up, Streamlit Cloud gives you a public URL you can paste back into
-the repo's About box so the badge below resolves.
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
 
 ### Known limitation: WebRTC and symmetric NAT
 
